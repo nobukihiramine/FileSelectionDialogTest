@@ -191,7 +191,7 @@ public class FileSelectionDialog implements AdapterView.OnItemClickListener
 	}
 
 	// ListView内の項目をクリックしたときの処理
-	public void onItemClick( AdapterView<?> parent, View v, int position, long id )
+	public void onItemClick( AdapterView<?> parent, View view, int position, long id )
 	{
 		if( null != m_dialog )
 		{
